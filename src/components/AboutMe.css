@@ -1,0 +1,99 @@
+.about-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.about-wrapper {
+  background: #fcfcfc;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #eee;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: #000;
+  font-weight: 700;
+}
+
+.highlight-blue {
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.tech-stack {
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #2563eb;
+}
+
+.learning-box {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f0f7ff;
+  border-left: 5px solid #2563eb;
+}
+
+.tech-learning {
+  font-weight: 600;
+  color: #1e40af;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 60px 15px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .about-wrapper {
+    padding: 25px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .about-wrapper {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .learning-box {
+    padding: 10px;
+  }
+}
