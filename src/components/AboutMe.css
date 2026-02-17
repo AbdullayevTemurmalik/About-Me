@@ -39,7 +39,7 @@
   font-size: clamp(0.95rem, 2.5vw, 1.1rem);
   line-height: 1.8;
   margin-bottom: 1.4rem;
-  color: #eaeaea;
+  color: #333333;
 }
 
 .name {
