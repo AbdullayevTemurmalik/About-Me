@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="header">
       <Link to="/" className="logo-link">
-        <h1>Temurbek Abdullayev</h1>
+        <h1>TemurMalik Abdullayev</h1>
       </Link>
 
       <nav className={isOpen ? "nav-links mobile" : "nav-links"}>
