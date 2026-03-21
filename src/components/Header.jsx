@@ -13,9 +13,9 @@ export default function Header() {
       </Link>
 
       <nav className={isOpen ? "nav-links mobile" : "nav-links"}>
-        <Link to="/about" onClick={() => setIsOpen(false)}>
+        {/* <Link to="/about" onClick={() => setIsOpen(false)}>
           About Me
-        </Link>
+        </Link> */}
         <Link to="/skills" onClick={() => setIsOpen(false)}>
           Skills
         </Link>
