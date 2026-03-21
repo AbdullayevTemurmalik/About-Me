@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-section {
+  min-height: 100vh;
+  padding: 5rem 1.2rem;
+  background: lwhite;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+}
+
+.about-card {
+  background: white;
+  backdrop-filter: blur(14px);
+  border-radius: 24px;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45);
+}
+
+/* TEXT */
+.description {
+  font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+  line-height: 1.8;
+  margin-bottom: 1.4rem;
+  color: #333333;
+}
+
+.name {
+  color: #00eaff;
+  font-weight: 700;
+}
+
+.highlight {
+  color: #ffcc70;
+  font-weight: 600;
+}
+
+.sub-title {
+  margin: 2.5rem 0 1.5rem;
+  text-align: center;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+}
+
+/* TECH ICONS */
+.tech-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.tech-item {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 1.6rem 1rem;
+  text-align: center;
+  font-size: clamp(2rem, 6vw, 2.6rem);
+  transition: 0.35s ease;
+  cursor: pointer;
+}
+
+.tech-item span {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: clamp(0.85rem, 2.5vw, 1rem);
+}
+
+.tech-item:hover {
+  transform: translateY(-10px) scale(1.06);
+}
+
+.react {
+  color: #61dafb;
+}
+
+.next {
+  color: #000000;
+}
+
+.node {
+  color: #68a063;
+}
+
+.express {
+  color: #cccccc;
+}
+
+@media (max-width: 480px) {
+  .about-section {
+    padding: 3.5rem 1rem;
+  }
+
+  .about-card {
+    border-radius: 18px;
+  }
+
+  .tech-icons {
+    gap: 1rem;
+  }
+
+  .tech-item {
+    padding: 1.3rem 0.8rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .about-section {
+    padding: 4rem 1.2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1367px) {
+  .container {
+    max-width: 1200px;
+  }
+}
